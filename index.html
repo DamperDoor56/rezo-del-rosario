@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="index.css">
+<link rel="ja" href="index.js">
+
+<head>
+<script src="index.js" ></script>
+<title>Rezar el Rosario</title>
+</head>
+
+<body>
+<header>
+<h1>Rosario</h1>
+</header>
+
+<p class="subtitle">El Santo Rosario es una serie de rezos que conmemoran los 20 Misterios Sagrados de la vida de
+nuestro Señor Jesucristo y la Virgen Maria.
+Es una devoción recomendada por muchos Papas y santos. La misma Virgen pidió que se rezase en Lourdes y Fátima.
+
+</p>
+<div class="info-content">
+    <button onclick="hideContent(1)">
+        Introduccion a los Misterios Sagrados y su Importancia
+    </button>
+    <div id="content-to-hide-1" style="display: block;">
+    <p>
+    Los Misterios Sagrados se llaman asi porque justamente, son incomprensibles
+    para la razon y logica humana, pero que aun asi, debemos confiar y 
+    creen en ellos porque han sido revelados por Dios, y Dios no miente.
+    Cuando creemos en los misterios hacemos un acto de humildad, y reconocemos que sabe
+    mas que nosotros.
+    </p>
+    <h2>
+        La disciplina del arcano
+    </h2>
+    <p>
+        Al principios del cristianismo, los Ritos Sagrados se celebraban
+        en secreto, en parte porque era peligroso para los practicantes, ya que eran perseguidos.
+        En parte, era algo que se celebraba solo con los cristianos mas comprometidos
+        porque habia muchos paganos que ridiculizaban las practicas Sagradas, y hacian profanaciones (por ejemplo, Imitar a Cristo de forma burlona, 
+        comparar la Eucaristia con el canibalismo, etc).
+    </p>
+    <p>
+        Hoy en dia tambien es aconsejable esta practica de ocultar los misterios
+        mas profundos de la fe, para proteger a los catecúmenos de malentendidos, y para 
+        evitar profanidades o herejia de personas malintencionadas. 
+        Jesus mismo dijo que "No deis lo santo a los perros".
+        La fe no es informacion vulgar que se puede dar a cualquiera.
+        Merece respeto y solemnidad, tiene que ser tratada como lo que es, informacion sagrada.
+    </p>
+    <p>
+        Asi que les aconsejo a los que no son fieles a retirarse de este
+        sitio web o al menos, de esta seccion donde se explica y documenta
+        los Misterios del Santo Rosario.
+    </p>
+</div>
+    <button onclick="hideContent(2)">
+        Lista de Misterios Sagrados
+    </button>
+    <div class="inputBox" id="input-box">
+        <p>Inserte Signum Crucis</p>
+        <i style="font-size: 10px;">en latin o castellano</i>
+        <input style="width: 200px;">
+    </div>
+    <div id="content-to-hide-2">
+        <button onclick="hideContentSpecial(3)">
+            Misterios Gozosos
+        </button>
+        <div id="content-to-hide-3">
+        </div>
+    </div>
+</div>
+</body>
+
+</html> 
